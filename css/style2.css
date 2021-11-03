@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica ", Arial, sans-serif;
+  font-size: 16px;
+}
+
+#areYouDoctor {
+  background-color: #efeff4;
+  padding-bottom: 1px;
+  padding-top: 5px;
+}
+
+#areYouDoctor .content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#areYouDoctor .content .title h1 {
+  font-size: 30px;
+  text-align: left;
+  color: #004f6c;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+#areYouDoctor .content .areYouDoctorForm {
+  margin-bottom: 100px;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group {
+  margin-bottom: 15px;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group label {
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  font-size: 20px;
+  display: inline-block;
+  max-width: 100%;
+  font-weight: 700;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group .formInputs {
+  height: 56px;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  font-size: 20px;
+  color: #4a4a4a;
+  padding: 10px 16px;
+  border: none;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group .iti {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group .iti .iti__selected-flag {
+  padding: 6px;
+  border-right: solid 0.5px #979797;
+  background-color: #fff;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol .form-group option {
+  text-indent: 15px;
+  background-color: #ffffff;
+  width: 50%;
+  border-color: #ffffff;
+}
+
+#areYouDoctor .content .areYouDoctorForm .formRow .formCol {
+  width: 100%;
+}
+
+#areYouDoctor .content .areYouDoctorForm .btn-lg {
+  padding: 15px 16px;
+  font-size: 25px;
+  background-color: #30c34b;
+  opacity: 0.65;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.footer {
+  padding: 10px 0;
+  font-size: 15px;
+  font-family: "Markazi Text", serif;
+  padding-top: 35px;
+}
+
+.footer .content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer .content .row1 {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.footer .content .row1 .footerCol {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.footer .content .row1 .mainHeader {
+  color: #000;
+  height: 28px;
+  font-family: FFShamelFamily-SansOneBold;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0e0e;
+  outline: none;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.footer .content .row1 .clinicList li {
+  list-style-type: none;
+  list-style: none;
+  font-family: FFShamelFamily-SansOne;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0e0e;
+  margin-left: -5%;
+}
+
+.footer .content .row1 .clinicList li a {
+  width: 160px;
+  /* height: 165px; */
+  font-family: FFShamelFamily-SansOne;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0e0e;
+  text-transform: capitalize;
+}
+
+.footer .content .row1 .clinicList li a:hover {
+  background-color: #fff;
+}
+
+.footer .content .row1 i {
+  display: inline-block;
+  margin-left: 0.255em;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.footer .content .row1 .dropdown-toggle::after {
+  display: none;
+}
+
+#footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#footer hr {
+  border: 1px solid #979797;
+  width: 99%;
+  margin-top: 50px;
+}
+
+#footer .content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#footer .content .social {
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer .content .social .socialIcons a {
+  color: #004f6c;
+  font-size: 30px;
+  padding: 15px;
+  width: fit-content;
+}
+
+#footer .content .social .logo img {
+  width: 140px;
+  padding: 25px 0px 40px 15px;
+}
+
+#footer .content .social .copyright p {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .formCol {
+    width: 100%;
+  }
+}
+
+@media (min-width: 910px) {
+  #areYouDoctor .content {
+    padding-right: 107px;
+    padding-left: 86px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footerCol {
+    width: 25% !important;
+  }
+  .footerCol .dropdown-toggle i {
+    display: none !important;
+  }
+  .clinicList li {
+    margin-left: -10% !important;
+  }
+  #footer .social {
+    flex-direction: row !important;
+  }
+  .social {
+    justify-content: space-between;
+  }
+  .col-md-6 {
+    width: 50% !important;
+  }
+  .col-md-12 {
+    width: 100% !important;
+  }
+}
